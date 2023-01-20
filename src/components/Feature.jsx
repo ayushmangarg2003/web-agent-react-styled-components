@@ -19,6 +19,7 @@ const Left = styled.div`
 `;
 const Right = styled.div`
   width: 50%;
+  height:100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,6 +29,9 @@ const Right = styled.div`
 `;
 const Title = styled.span`
   font-size: 70px;
+  @media only screen and (max-width: 1150px) {
+    font-size: 50px;
+}
   @media only screen and (max-width: 480px) {
     font-size: 40px;
   }
