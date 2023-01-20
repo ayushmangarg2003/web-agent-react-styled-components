@@ -7,10 +7,14 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:30px;
+  gap:10px;
+  flex-wrap:wrap;
   @media only screen and (max-width: 880px) {
+    gap: 30px;
+  }
+  @media only screen and (max-width: 480px) {
     flex-direction: column;
-    gap:5px;
+    gap:20px
   }
 `;
 
