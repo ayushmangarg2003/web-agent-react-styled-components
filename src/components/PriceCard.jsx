@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  margin-right: 50px;
   padding: 20px;
   -webkit-box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 5px 10px #DC143C4a;
@@ -13,8 +12,6 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   @media only screen and (max-width: 880px) {
-    margin-right: 0;
-    margin-bottom: 10px;
     padding: 10px;
   }
 `;
