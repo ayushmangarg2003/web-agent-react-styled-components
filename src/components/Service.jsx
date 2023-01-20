@@ -39,8 +39,12 @@ const Video = styled.video`
 `;
 const Right = styled.div`
   width: 50%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
   @media only screen and (max-width: 880px) {
     width: 100%;
+    height:100vh;
   }
 `;
 const Wrapper = styled.div`
