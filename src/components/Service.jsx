@@ -53,23 +53,28 @@ const Wrapper = styled.div`
   }
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+@media only screen and (max-width: 480px) {
+  text-align:center;
+}`;
 
 const Desc = styled.p`
   font-size: 20px;
   margin-top: 20px;
   color: #f6f6f6;
   @media only screen and (max-width: 880px) {
-    color: #222
+    color: #222;
+    text-align:center;
   }
 `;
 
 const CardContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  width:100%;
+  justify-content: space-evenly;
   margin-top: 50px;
-  gap:30px;
-  @media only screen and (max-width: 880px) {
+  @media only screen and (max-width: 480px) {    
+    justify-content: center;
     gap:5px;
   }
 `;
