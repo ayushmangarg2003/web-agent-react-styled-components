@@ -26,6 +26,9 @@ text-decoration : underline crimson;
 const Menu = styled.ul`
     display :flex;
     gap : 30px;
+    @media only screen and (max-width: 1150px) {
+        gap:10px;
+    }
     @media only screen and (max-width: 880px) {
         display: none;
     }
@@ -34,6 +37,9 @@ const MenuItem = styled.li`
     list-style-type : none;
     font-size: 24px;
     font-weight: bold;
+    @media only screen and (max-width: 1100px) {
+        font-size: 18px;
+    }
 `
 const Button = styled.button`
     padding  : 10px 20px;
