@@ -22,6 +22,9 @@ const Logo = styled.h1`
 font-size: 40px;
 font-weight : bold;
 text-decoration : underline crimson;
+@media only screen and (max-width: 380px) {
+    font-size:30px
+}
 `
 const Menu = styled.ul`
     display :flex;
@@ -52,6 +55,7 @@ const Button = styled.button`
     cursor:pointer;
     @media only screen and (max-width: 480px){
         font-size: 12px;
+        padding : 10px 15px
     }
 `
 
