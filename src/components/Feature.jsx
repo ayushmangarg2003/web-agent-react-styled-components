@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import APP from '../img/app.png'
+import APP from '../img/app.webp'
 import Animation from './Animation';
 
 const Container = styled.div`

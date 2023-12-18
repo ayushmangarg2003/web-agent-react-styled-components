@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import How from "../img/how.png";
+import How from "../img/how.webp";
 import MiniCard from "./MiniCard";
-import Play from "../img/play.png";
+import Play from "../img/play.webp";
 import Animation from "./Animation";
 
 

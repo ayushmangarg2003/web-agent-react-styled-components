@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Search from "../img/search.png";
+import Search from "../img/search.webp";
 
 const Container = styled.div`
   width: 75px;

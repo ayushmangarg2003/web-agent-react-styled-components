@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Animation from "./Animation";
-import WomenPng from "../img/women.png"
+import WomenPng from "../img/women.webp"
 
 const Container = styled.div`
     height : calc(100vh - 50px);
